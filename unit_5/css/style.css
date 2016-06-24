@@ -3,23 +3,38 @@
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing:border-box;
 }
 body{
 	background: #085AA1;
 	background-size: cover;
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 20px;
-	color: #08A13F;
+	color: #fff;
 }
 header {
     background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
+    overflow: hidden;
 }
 section {
     background-color: #FFC675;
     border: 1px black solid;
-    padding: 20px;
+    padding: 5em 0;
+}
+section#splash {
+	background: url(../images/flag.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:90vh;
+	padding: 0;
+}
+section#splash div {
+	padding: 15em 0;
+    background: rgba(0,0,0,.5);
+    color: rgba(255,255,255,.75);
+    text-align: center;
 }
 main {
     background-color: #E89C6C;
@@ -35,6 +50,7 @@ nav {
     background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
+    float: right;
 }
 #wrapper {
     background-color: #FFE2B8;
@@ -46,8 +62,6 @@ nav {
 /*}*/
 h1{
 	font-size: 70px;
-	color: #08A13F;
-	padding: 20px;
 }
 h1, h2{
 	font-family: 'Rye', cursive;
@@ -57,7 +71,6 @@ section img{
 	margin: 0 auto;
 }
 p {
-	width: 750px;
 }
 ol{
 	list-style: none;
@@ -101,5 +114,5 @@ a:hover{
 
 #slogan{
 	font-style: italic;
-	text-align: center;
+	/* text-align: center; */
 }
