@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Rye|Noto+Sans:400,400italic,700,700italic);
+
+*{
+	padding: 0;
+	margin: 0;
+	/*box-sizing:border-box;*/
+}
+body{
+	background: black;
+	background-size: cover;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+/*header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    overflow: hidden;
+}*/
+/*header nav{*/
+	/*float: right;*/
+/*}*/
+article {
+    /*background-color: #E89C6C;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+article p{
+	text-align: center;
+}
+section {
+    /*background-color: #FFC675;*/
+    /*border: 1px black solid;*/
+    padding: 5em 0;
+}
+header {
+	background: url(../images/flag.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:90vh;
+	padding: 0;
+}
+header div {
+	padding: 160px 0 310px 0;
+    background: rgba(0,0,0,.5);
+    color: rgba(255,255,255,.75);
+    text-align: center;
+}
+section h2{
+	margin: 30px 0;
+}
+header nav {
+    /*background-color: #E8C66A;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    float: right;
+}
+p {
+	line-height: 1.5em;
+}
+/*LoVe HAte*/
+a{
+	text-decoration: none;
+	color: #09AB71;
+	font-weight: bold;
+}
+a:hover{
+	text-decoration: underline;
+	color: #098BAB;
+}
+img{
+	width: 30%;
+}
+section img{
+	display: block;
+	margin: 0 auto;
+}
+footer {
+    /*background-color: #FF957E;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+	text-align: center;
+}
+h1{
+	font-size: 70px;
+}
+h1, h2{
+	font-family: 'Rye', cursive;
+}
+hr{
+	border:none;
+	width:20em;
+	margin:1em auto;
+	background-color: white;
+	height: 3px;
+}
+ol{
+	list-style: none;
+}
+ul {
+	list-style: none;
+	margin: .5em 0;
+}
+ul li {
+	margin: .25em 0;
+}
+section li{
+	display: inline-block;
+}
+ol li:after{
+	content: ",";
+	color: #09AB71;
+}
+.sitename {
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.social{
+	width: 40px;
+}
+.search{
+	text-align: center;
+	padding: 20px;
+	font-size: 25px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#slogan{
+	font-style: italic;
+	padding: 10px;
+	/* text-align: center; */
+}
+#two_column {
+    /*background-color: #FFB7CF;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+#left {
+    /*background-color: violet;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    float: left;
+    width: 18%;
+}
+
+#right {
+    /*background-color: pink;*/
+    /*border: 1px black solid;*/
+    padding: 20px;
+    float: right;   
+    width: 74%;
+}
