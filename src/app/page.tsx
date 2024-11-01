@@ -1,101 +1,112 @@
-import Image from "next/image";
-
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    return (
+        <div className="p-5 max-w-screen-lg m-auto">
+            <main className="pb-8">
+                <h1 className="pb-5 text-3xl font-bold underline text-center">Alex Bonder</h1>
+                <div className="pb-5">
+                    <h2 className="text-2xl font-bold">Hello there!</h2>
+                    <p>
+                        This is the home page for what will soon be a portfolio, or digital resume... something like
+                        that. It&apos;ll grow into itself. For now its just holding some mandatory endpoints for the iOS
+                        app I built.
+                    </p>
+                    <p>
+                        As to not waste an opportunity to show off some work, here&apos;s some fun links. All projects
+                        are works in progress. (Aren&apos;nrbt they always?)
+                    </p>
+                </div>
+                <div className="pb-5">
+                    <h2 className="text-2xl font-bold">Projects</h2>
+                    <h3 className="text-xl font-bold">Laces</h3>
+                    <p>
+                        <a
+                            className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                            href="https://lexbonder.github.io/laces"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Live
+                        </a>{' '}
+                        |{' '}
+                        <a
+                            className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                            href="https://www.github.com/lexbonder/laces"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </p>
+                    <h3 className="text-xl font-bold">Step to the Beat</h3>
+                    <p>
+                        <a
+                            className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                            href="https://step-to-the-beat.firebaseapp.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Live
+                        </a>{' '}
+                        |{' '}
+                        <a
+                            className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                            href="https://www.github.com/lexbonder/step-to-the-beat"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </p>
+                    <h3 className="text-xl font-bold">
+                        Stained Glass AR <span className="text-base font-normal">(Coming Soon to the App Store)</span>
+                    </h3>
+                    <p>
+                        <a
+                            className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                            href="https://www.github.com/lexbonder/bethorwindows"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+                    </p>
+                </div>
+                <h2 className="text-2xl font-bold">Contact Me</h2>
+                <p>Networking? Questions? Comments? Lets connect!</p>
+                <p>
+                    <a
+                        href="mailto:lexbonder.dev+portfolio@gmail.com?subject=Contact from portfolio"
+                        className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                    >
+                        Email
+                    </a>
+                </p>
+                <p>
+                    <a
+                        href="https://www.linkedin.com/in/lexbonder"
+                        className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                    >
+                        LinkedIn
+                    </a>
+                </p>
+                <p>
+                    <a
+                        href="https://www.github.com/lexbonder"
+                        className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                    >
+                        GitHub
+                    </a>
+                </p>
+            </main>
+            <footer>
+                <a
+                    className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                    href="https://www.flaticon.com/free-icons/ab-testing"
+                    title="ab testing icons"
+                >
+                    Ab testing icons created by Freepik - Flaticon
+                </a>
+            </footer>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+    );
 }
