@@ -57,9 +57,17 @@ export default function Home() {
                             GitHub
                         </a>
                     </p>
-                    <h3 className="text-xl font-bold">
-                        Stained Glass AR <span className="text-base font-normal">(Coming Soon to the App Store)</span>
-                    </h3>
+                    <h3 className="text-xl font-bold">Stained Glass AR</h3>
+                    <p>
+                        <a
+                            className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                            href="https://apps.apple.com/us/app/stained-glass-ar/id6680150934"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            App Store
+                        </a>
+                    </p>
                     <p>
                         <a
                             className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
